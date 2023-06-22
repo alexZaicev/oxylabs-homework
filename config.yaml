@@ -1,0 +1,10 @@
+logger:
+  level: info
+
+server:
+  publisherPort: 4646
+  subscriberPort: 4747
+
+tls:
+  x509: ./cert.pem
+  key: ./key.pem
